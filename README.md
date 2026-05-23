@@ -1,0 +1,4 @@
+- Polls RAM every 5 seconds using psutil 
+- Prints a colored progress bar with used/total memory each tick
+- Prints a bold red [ALERT] line with details whenever usage is at or above 80%
+- Warning color kicks in at 68% (85% of the threshold) as an early heads-up - Stops cleanly on Ctrl-C
